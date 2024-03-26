@@ -5,6 +5,11 @@
 To Develop a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images.
 
 ## Problem Statement and Dataset
+Digit classification and to verify the response for scanned handwritten images.
+
+The MNIST dataset is a collection of handwritten digits. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively. The dataset has a collection of 60,000 handwrittend digits of size 28 X 28. Here we build a convolutional neural network model that is able to classify to it's appropriate numerical value.
+
+![image](https://github.com/S-Priyadharshan/mnist-classification/assets/145854138/8a0b8150-2ed8-456d-addf-bfe607d0e03d)
 
 
 ## Neural Network Model
@@ -176,20 +181,22 @@ print(x_single_prediction)
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
+![image](https://github.com/S-Priyadharshan/mnist-classification/assets/145854138/13d014fe-e973-4275-ae9f-7e2a3c2a00a1)
 
-Include your plot here
+![image](https://github.com/S-Priyadharshan/mnist-classification/assets/145854138/99c1ffaf-5aff-44ec-8f85-da6f6181493c)
 
 ### Classification Report
 
-Include Classification Report here
+![Screenshot 2024-03-26 194205](https://github.com/S-Priyadharshan/mnist-classification/assets/145854138/4b1cb779-3c0b-4f81-8184-3b98342eee21)
 
 ### Confusion Matrix
 
-Include confusion matrix here
+![Screenshot 2024-03-26 194249](https://github.com/S-Priyadharshan/mnist-classification/assets/145854138/f02ba5a1-3d7a-4b09-8a86-ff5fd7ff5ffd)
 
 ### New Sample Data Prediction
+![image](https://github.com/S-Priyadharshan/mnist-classification/assets/145854138/79a0e29b-f9cc-4d65-bd00-698642b6f323)
 
-Include your sample input and output for your hand written images.
+![Screenshot 2024-03-26 194404](https://github.com/S-Priyadharshan/mnist-classification/assets/145854138/265aff32-ef72-404a-8532-25bd1424f931)
 
 ## RESULT
-Include your result here.
+A convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is developed sucessfully.
